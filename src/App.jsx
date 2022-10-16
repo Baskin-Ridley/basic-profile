@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Test from './components/Test.jsx'
+import Contact from './components/contact/Contact'
 function App() {
 
   return (
     <div className="App">
 
-      <Test/>
+      <Contact />
+      
+
 
     </div>
   )
