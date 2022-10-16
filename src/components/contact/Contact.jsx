@@ -31,7 +31,7 @@ const Contact = () => {
             <input type="email" name="email" id="email" value={contactInfo.email} onChange={handleChange} />
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="10" value={contactInfo.message} onChange={handleChange}></textarea>
-            <button className="submitBtn" type="submit">Submit</button>
+            <button className="submitBtn" onClick={handleSubmit}>Submit</button>
         </form>
     </div>
   )
