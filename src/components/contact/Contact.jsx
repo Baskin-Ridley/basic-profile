@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <form className="contactForm">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" value={contactInfo.name} onChange={handleChange} />
@@ -31,7 +31,7 @@ const Contact = () => {
             <input type="email" name="email" id="email" value={contactInfo.email} onChange={handleChange} />
             <label htmlFor="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="10" value={contactInfo.message} onChange={handleChange}></textarea>
-            <button type="submit">Submit</button>
+            <button className="submitBtn" type="submit">Submit</button>
         </form>
     </div>
   )
